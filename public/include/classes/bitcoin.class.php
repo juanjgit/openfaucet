@@ -80,4 +80,4 @@ class Bitcoin extends jsonRPCClient {
 }
 
 // Load this wrapper
-$bitcoin = new Bitcoin($config['wallet']['type'], $config['wallet']['username'], $config['wallet']['password'], $config['wallet']['host'], DEBUG);
+$bitcoin = new Bitcoin($config['wallet']['type'], $config['wallet']['username'], $config['wallet']['password'], $config['wallet']['host'], NULL, DEBUG);
