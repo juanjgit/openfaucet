@@ -5,7 +5,6 @@ $defflip = (!cfip()) ? exit(header('HTTP/1.1 401 Unauthorized')) : 1;
 
 // Default classes
 require_once(INCLUDE_DIR . '/lib/KLogger.php');
-require_once(CLASS_DIR . '/logger.class.php');
 require_once(CLASS_DIR . '/debug.class.php');
 if ($config['mysql_filter']) {
   require_once(CLASS_DIR . '/strict.class.php');
